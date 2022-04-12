@@ -10,7 +10,8 @@ public class Programme1
         int nbr1 = sc.nextInt();
         System.out.println("Entrez le second nombre : ");
         int nbr2 = sc.nextInt();
+        int somme = nbr1 + nbr2;
 
-        System.out.println(nbr1 + "+" + nbr2 + "=" + nbr1+nbr2);
+        System.out.println(nbr1 + "+" + nbr2 + "=" + somme);
     }
 }
